@@ -1,0 +1,79 @@
+@charset "utf-8";
+
+/* sub파일 안에서 header 변경 */
+header {
+    position: relative;
+    top: 0;
+    margin-top: 50px;
+}
+
+
+/* 🌹 .cont01 */
+.cont01 {
+    padding-top: 60px;
+}
+.cont01 .list {
+    height: 160px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.25);
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+}
+.cont01 .list figure {
+    width: 102px;
+    height: 124px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.cont01 .list figure img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.cont01 .list .info {
+    margin-left: 11px;
+}
+.cont01 .list .info p {
+    font-size: 14px;
+    margin: 3px 0 20px;
+}
+.cont01 .list .info a {
+    width: 100px;
+    height: 35px;
+    border-radius: 20px;
+    background-color: #2C0089;
+    color: #fff;
+    display: block;
+    text-align: center;
+    line-height: 35px;
+    font-size: 14px;
+}
+
+/* 🌹 .cont02 */
+.cont02 {
+    padding-top: 50px;
+}
+.cont02 .list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.cont02 .list .item {
+    width: calc(100% / 3 - 10px);
+    margin-bottom: 25px;
+}
+.cont02 .list .item figure {
+    height: 160px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.cont02 .list .item figure img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.cont02 .list .item p {
+    font-size: 14px;
+    margin-top: 10px;
+}
