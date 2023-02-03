@@ -40,17 +40,12 @@ body {
     align-items: center;
 }
 
-.title h3 {
-    font-size: 20px;
-}
-
 /* 😆 header */
 header {
     width: 100%;
     position: absolute;
     left: 0;
     top: 50px;
-    z-index: 9;
 }
 header h1 {
     font-size: 30px;
@@ -84,6 +79,7 @@ header nav ul li {
 .bottom_menu ul li a {
     display: flex;
 }
+
 
 /* 뷰포트 1280px 이하일 때
 스타일 적용 */
